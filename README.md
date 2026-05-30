@@ -1,5 +1,6 @@
 # FIDP Lite: Flight Information Display Portal (Widget Edition)
-<img alt="App Preview Medium" src="https://github.com/user-attachments/assets/3f374bba-9de7-494a-99b3-8e9dde4447e4" width="49%"><br>
+<img alt="App Preview Medium" src="https://github.com/user-attachments/assets/3f374bba-9de7-494a-99b3-8e9dde4447e4" width="49%">
+<img alt="App Preview Medium" src="https://github.com/user-attachments/assets/af83c8da-4e5e-434c-8b5c-8f4fa6ec479d" width="49%"><br>
 
 FIDP (Flight Information Display Portal) Lite 是一個基於 Scriptable App 開發的 iOS 桌面小工具 (Widget)。作為 FIDP 網頁版專案的延伸，此工具整合了香港國際機場的官方 RESTful API 以及自建 API 服務，讓您可以在 iPhone 桌面上快速追蹤抵港或離港航班的最新動態。
 
