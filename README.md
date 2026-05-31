@@ -9,7 +9,7 @@ FIDP (Flight Information Display Portal) Lite 是一個基於 Scriptable App 開
 * **智慧佈局與色彩**：
   * 🟢 **離港航班 (Departure)**：溫和的淡綠色漸層背景。
   * 🔵 **抵港航班 (Arrival)**：清爽的冰川藍漸層背景。
-* **詳盡資訊**：顯示航班編號或聯名航班編號、客運大樓 (T1/T2)、目的地/出發地、預定時間、旅客登記行段、登機閘口、行李帶、接機大堂及即時航班狀態。
+* **詳盡資訊**：顯示航班編號及聯營航班編號、客運大樓 (T1/T2)、目的地/出發地、預定時間、旅客登記行段、登機閘口、行李帶、接機大堂及即時航班狀態。
 * **狀態警示色**：根據航班即時狀態（如：延誤、取消、最後召集、已啟航等）自動調整字體顏色，重要資訊一目了然。
 
 ## 安裝方法 (使用 Scriptable APP)
@@ -38,12 +38,12 @@ FIDP (Flight Information Display Portal) Lite 是一個基於 Scriptable App 開
 3. 點擊空白處完成編輯。
 
 > [!Caution]
-> ### 重要注意事項
+> **重要注意事項**
 > * 受限於 iOS 對桌面小工具背景重新整理頻率的嚴格限制，小工具上顯示的數據**未必是當刻的實時數據**。
 > * 在確認航班資訊（特別是登機閘口或最後召集等重要資訊）前，**請務必核對小工具左下角的「最後更新時間」**。您可以直接點擊 Widget 來手動觸發腳本重新執行並更新數據。
 
 ## 資料來源
-本專案使用自建 API 服務，背後對接 [香港國際機場 (HKIA) 開放數據 (Open Data)](https://data.gov.hk/en-data/dataset/aahk-team1-flight-info) 提供的 RESTful API。
+本專案使用自建 API 服務，背後對接 [香港國際機場開放數據 (Open Data)](https://data.gov.hk/en-data/dataset/aahk-team1-flight-info) 提供的 RESTful API。
 
 ## 免責聲明
 * 本專案為個人學術與技術展示用途，與香港機場管理局或任何航空公司無官方合作關係。
