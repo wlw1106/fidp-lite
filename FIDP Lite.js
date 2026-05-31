@@ -192,7 +192,7 @@ statusLabel.font = Font.boldSystemFont(17)
 statusLabel.rightAlignText()
 
 // 根據狀態智慧標色（明亮背景調高了顏色對比度）
-if (widgetData.status.includes("延誤") || widgetData.status.includes("取消") || widgetData.status.includes("最後") || widgetData.status.includes("失敗") || widgetData.status.includes("截止") 
+if (widgetData.status.includes("延") || widgetData.status.includes("取消") || widgetData.status.includes("最後") || widgetData.status.includes("失敗") || widgetData.status.includes("截止") 
 || widgetData.status.includes("到達")) {
   statusLabel.textColor = new Color("#b71c1c") // 深警告紅
 } else if (widgetData.status.includes("啟航") || widgetData.status.includes("登機") || widgetData.status.includes("著陸")) {
